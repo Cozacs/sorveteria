@@ -1,0 +1,49 @@
+.Informacoes {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.Informacoes h3{
+    margin-bottom: 50px;
+}
+
+.Informacoes p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.MeiaFoto {
+    width: 50%;
+    min-width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#pessoas {
+    background-image: url("../../../../../public/assets/sobre-image.jpg");
+}
+
+#buffet {
+    background-image: url("../../../../../public/assets/sorveteria.jpg");
+}
+
+@media screen and (max-width: 700px) {
+    .MeiaFoto {
+        height: 50%;
+    }
+    
+}

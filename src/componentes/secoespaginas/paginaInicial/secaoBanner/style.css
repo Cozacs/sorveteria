@@ -1,0 +1,17 @@
+.banner-sorvete {
+    background-color: rgb(249, 219, 121);
+    background-image: url("../../../../../public/assets/banner-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-sorvete h1 {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: clamp( 20px, 8vw, 75px);
+}

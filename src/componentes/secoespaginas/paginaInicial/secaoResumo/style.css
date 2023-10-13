@@ -1,0 +1,71 @@
+.Infos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#reverso {
+    flex-wrap: wrap-reverse;
+}
+
+.metade {
+    width: 50%;
+}
+
+#sabores {
+    background-image: url("../../../../../public/assets/banner-sabores.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+#eventos {
+    background-image: url("../../../../../public/assets/eventos-image.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+#sobre {
+    background-image: url("../../../../../public/assets/sobre-image.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.texto p {
+    margin-top: 10%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+    .metade {
+        width: 100%;
+    }
+    
+    #sabores {
+        width: 100%;
+    }
+    
+    #eventos {
+        width: 100%;
+    }
+    
+    #sobre {
+        width: 100%;
+    }
+}

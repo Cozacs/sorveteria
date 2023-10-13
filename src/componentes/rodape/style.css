@@ -1,0 +1,27 @@
+footer {
+    background-color: black;
+}
+
+.alinhamentoFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Logo img {
+    width: 100px;
+}
+
+.Contate-nos {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#autor {
+    color: white;
+    text-align: center;
+}

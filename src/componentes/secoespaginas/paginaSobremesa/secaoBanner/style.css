@@ -1,0 +1,16 @@
+.banner-sorvete-sabores {
+    background-image: url("../../../../../public/assets/banner-sabores.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-sorvete-sabores h1 {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: clamp( 25px, 8vw, 75px);
+}

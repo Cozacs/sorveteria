@@ -1,0 +1,68 @@
+#title-sabores {
+    text-align: center;
+    font-size: clamp(25px, 5vw, 40px);
+    margin: 20px 0px;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    min-width: 290px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.767);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+.layout-img {
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#oreo {
+    background-image: url('../../../../../public/assets/sabor-oreo.png');
+}
+
+#pistache {
+    background-image: url('../../../../../public/assets/sabor-pistache.png');
+}
+
+#avela {
+    background-image: url('../../../../../public/assets/sabor-cookies-avela.png');
+}
+
+#kiwi {
+    background-image: url('../../../../../public/assets/sorbet-kiwi.png');
+}
+
+#morango {
+    background-image: url('../../../../../public/assets/sorbet-morango.png');
+}
+
+#limao {
+    background-image: url('../../../../../public/assets/sorbet-limao.png');
+}
+
+.card h2 {
+    margin-bottom: 30px;
+}
+
+.card p {
+    text-align: justify;
+}
