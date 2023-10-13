@@ -8,7 +8,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .Logo img {
@@ -24,4 +23,10 @@ footer {
 #autor {
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .alinhamentoFooter {
+        flex-direction: column;
+    }
 }
