@@ -3,7 +3,7 @@
     background-image: url("../../../../../public/assets/banner-home.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 70%;
     height: 85vh;
     display: flex;
     justify-content: center;
